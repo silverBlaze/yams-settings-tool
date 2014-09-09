@@ -2,6 +2,8 @@ yams-settings-tool
 ==================
 This tool is meant for people who are running YAMS (Yet Another Minecraft Server) and need to make offline changes to their database file.
 
+Requires .NET Framework 4 Client Profile
+
 Due to a common bug in several Microsoft applications (including multiple versions of Visual Studio and SQL Server Managment Studio) it is not possible to load a SQLServer CE database file (.sdf) which has grown larger than 128MB. If writing your own software and using your own connection string, it is simple enough to add "Max Database Size=4000;", but this program provides a viable way to make changes to the YAMSSettings, MCSettings, and MCServers tables in the database.
 
 Features:
